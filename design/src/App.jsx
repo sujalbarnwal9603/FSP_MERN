@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from '../components/Header.jsx'
+import Footer from '../components/Footer.jsx'
 import Navigation from '../components/Navigation.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
@@ -26,6 +27,7 @@ function App() {
           <Route path="/services" element={<Services/>}></Route>
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </>
   )
 }
