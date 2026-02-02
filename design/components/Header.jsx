@@ -1,8 +1,13 @@
-import React from "react";
+// Header.jsx
+import React from 'react';
 import './Header.css';
 
-function Header(){
-    return(
-        <div className=""></div>
-    )
-}import React from "react";
+function Header() {
+  return (
+    <div className="header">
+      <h1>Welcome to Our Website</h1>
+    </div>
+  );
+}
+
+export default Header;
