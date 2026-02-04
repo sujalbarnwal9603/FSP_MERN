@@ -1,0 +1,14 @@
+.about-text{
+    max-width:500px;
+    text-align:left;
+
+}
+.about-text h2{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.about-text p{
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
